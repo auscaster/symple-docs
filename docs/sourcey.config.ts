@@ -2,6 +2,8 @@ import { defineConfig, markdown } from "sourcey";
 
 export default defineConfig({
   name: "symple",
+  siteUrl: "https://0state.com",
+  baseUrl: "/symple/docs",
   prettyUrls: "strip",
   theme: {
     colors: {
