@@ -2,7 +2,7 @@ import { defineConfig, markdown } from "sourcey";
 
 export default defineConfig({
   name: "symple",
-  siteUrl: "https://0state.com",
+  siteUrl: "https://auscaster.com",
   baseUrl: "/symple/docs",
   prettyUrls: "strip",
   theme: {
@@ -12,7 +12,7 @@ export default defineConfig({
       dark: "#6d28d9",
     },
   },
-  repo: "https://github.com/nilstate/symple-server",
+  repo: "https://github.com/auscaster/symple-docs",
   editBranch: "main",
   editBasePath: "docs",
   navigation: {
@@ -53,13 +53,13 @@ export default defineConfig({
   },
   navbar: {
     links: [
-      { type: "github", href: "https://github.com/nilstate/symple-server" },
+      { type: "github", href: "https://github.com/auscaster/symple-server" },
       { type: "npm", href: "https://www.npmjs.com/package/symple-client" },
     ],
   },
   footer: {
     links: [
-      { type: "github", href: "https://github.com/nilstate/symple-server" },
+      { type: "github", href: "https://github.com/auscaster/symple-server" },
     ],
   },
 });
